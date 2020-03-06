@@ -1,0 +1,140 @@
+#structure	{
+
+	width: 1000px;
+	margin: 30px auto;
+}
+@media (max-width: 700px)  {
+	#structure {
+		width: 500px;
+		line-height: 1000px;
+	}
+	.subdiv	{
+		background: rgb(103, 112, 148);
+    	padding: 30px;
+    	margin: 0px 10px;
+    	text-align: center;
+   	 	box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+    	border-radius: 10px;}
+	
+}
+@media (max-width: 850px) {
+	#structure  {
+		width: 600px;
+		line-height: 60px;
+	}	
+	.subdiv	{
+		background: rgb(103, 112, 148);
+    	padding: 30px;
+    	margin: 0px 10px;
+    	text-align: center;
+   	 	box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+    	border-radius: 10px;
+
+	}
+}
+
+
+body	{
+	background-color: rgb(39, 39, 63);
+color: rgb(200, 200, 200);
+font-family: 'Caladea', ;
+font-weight: lighter;
+}
+
+h1		{
+ color: rgb(120;120;120);
+    font-family: Hollywood Hills;
+    font-weight: 100;
+    letter-spacing: 7px;
+    font-size: 51px;
+    text-transform: uppercase;
+	
+}
+
+#blue-but	{
+	margin-top: 40px;
+	text-decoration: none;
+	color: white;
+	font-family: 'arial', serif;
+	font-size: 24px;
+	background-color: #3b5998;
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+
+#blue-but:hover {
+background-color: white;
+color: #3b5998
+}
+
+
+#logo	{
+	border-radius: 50%;
+	width: 250px;
+	margin-bottom: 30px
+}
+
+h2		{
+
+	color: rgb(36, 41, 60);
+    font-family: AR BONNIE;
+    font-weight: lighter;
+    letter-spacing: 7px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+p		{
+	color: #b0c3cc;
+	line-height: 22px;;
+	letter-spacing: 0.65px;
+	text-align: center;
+	font-weight: bold;
+}
+#intro	{
+	background: rgb(103, 112, 148);
+    padding: 30px;
+    margin: 50px 100px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+    border-radius: 10px;
+   
+}
+#intro p {
+	margin-bottom: 40px
+}
+
+.subdiv	{
+	background: rgb(103, 112, 148);
+    padding: 30px;
+    margin: 50px 100px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}	
+
+}
+.list-inline	{
+	list-style: none;
+}
+.list-inline li {
+	display: inline;
+	padding: 20px
+
+}
+.list-inline i 	{
+	font-size: 40px;
+	color: #rgb(20;20;20);
+}
+.list-inline i:hover  {
+	color: rgb(36, 41, 60);
+}
+
+.list-inline a:visited{
+	text-decoration: : none
+}
+
+#icon	{
+	color: antiquewhite;
+
+}
